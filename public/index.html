@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fuselage Chat - Langfuse Testing App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Fuselage Chat</h1>
+      <p>A simple chat application to test Langfuse tracing</p>
+    </header>
+
+    <main>
+      <div class="chat-container">
+        <div id="chat-messages" class="chat-messages">
+          <div class="message system">
+            <div class="message-content">
+              <p>Welcome to Fuselage Chat! Ask me anything to test Langfuse tracing.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input-container">
+          <form id="chat-form">
+            <input 
+              type="text" 
+              id="message-input" 
+              placeholder="Type your message here..." 
+              autocomplete="off"
+              required
+            >
+            <button type="submit" id="send-button">Send</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="trace-info">
+        <h3>Langfuse Trace Info</h3>
+        <div id="trace-details">
+          <p>No trace information yet. Send a message to start tracing.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Built for testing <a href="https://langfuse.com" target="_blank">Langfuse</a> tracing</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html> 
