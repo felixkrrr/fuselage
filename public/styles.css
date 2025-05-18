@@ -1,14 +1,15 @@
 :root {
-  --primary-color: #6366f1;
-  --primary-hover: #4f46e5;
-  --bg-color: #f9fafb;
+  /* Use a simple black and white color scheme */
+  --primary-color: #000000;
+  --primary-hover: #333333;
+  --bg-color: #ffffff;
   --card-bg: #ffffff;
-  --text-color: #1f2937;
-  --text-muted: #6b7280;
-  --border-color: #e5e7eb;
-  --user-msg-bg: #e0e7ff;
-  --ai-msg-bg: #f3f4f6;
-  --system-msg-bg: #fef3c7;
+  --text-color: #000000;
+  --text-muted: #555555;
+  --border-color: #cccccc;
+  --user-msg-bg: #f0f0f0;
+  --ai-msg-bg: #e0e0e0;
+  --system-msg-bg: #dddddd;
 }
 
 * {
