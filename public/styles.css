@@ -162,6 +162,13 @@ main {
   overflow-x: auto;
 }
 
+#trace-details .help-text {
+  font-style: italic;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
 footer {
   margin-top: 2rem;
   text-align: center;
